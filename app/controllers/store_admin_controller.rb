@@ -1,5 +1,5 @@
 class StoreAdminController < ApplicationController
-  layout "admin", :except => :invoice
+  layout "admin"
   def home
 
   end
@@ -9,6 +9,6 @@ class StoreAdminController < ApplicationController
   end
 
   def invoice
-    render :html => '<h1>Your Invoice</h1>'
+    render :layout => false
   end
 end
