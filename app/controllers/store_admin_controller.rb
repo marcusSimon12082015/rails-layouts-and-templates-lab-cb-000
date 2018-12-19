@@ -1,5 +1,5 @@
 class StoreAdminController < ApplicationController
-  layout "store_admin"
+  layout "admin"
   def home
 
   end
