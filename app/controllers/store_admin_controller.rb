@@ -5,7 +5,7 @@ class StoreAdminController < ApplicationController
   end
 
   def orders
-    render :layout => "order_administration.html.erb"
+    render layout: "order_administration"
   end
 
   def invoice
