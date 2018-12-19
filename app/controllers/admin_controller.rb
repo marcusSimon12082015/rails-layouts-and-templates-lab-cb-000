@@ -1,4 +1,4 @@
-class StoreAdminController < ApplicationController
+class AdminController < ApplicationController
   def home
 
   end
