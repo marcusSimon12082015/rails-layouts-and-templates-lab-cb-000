@@ -1,5 +1,5 @@
 class StoreAdminController < ApplicationController
-  layout "admin"
+  layout "admin", :except => :invoice
   def home
 
   end
