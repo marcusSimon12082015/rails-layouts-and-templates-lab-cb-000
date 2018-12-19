@@ -9,7 +9,7 @@ class StoreAdminController < ApplicationController
   end
 
   def invoice
-    layout false
+    layout: false
     render :html => '<h1>Your Invoice</h1>'
   end
 end
